@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.signup-wrapper{
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 450px;
+  width: 370px;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+
+.signup-title{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.signup-background{
+  height: 100vh;
+  width: 100%;
+  background-color: navy;
+}
+
+
+.signin-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.signin-wrapper{
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 450px;
+  width: 370px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+}
+
+.signin-background{
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
+
+.r-password{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  margin-left: 120px;
+  /* width: 140%; */
+  /* width: 170px; */
+}
+
+.dashboard-table{
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 250px;
+}
